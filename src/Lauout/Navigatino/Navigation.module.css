@@ -1,0 +1,20 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav_wrapper {
+  background-color: black;
+  width: 80%;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  color: white;
+}

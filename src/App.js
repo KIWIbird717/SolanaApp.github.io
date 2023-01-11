@@ -1,6 +1,13 @@
+import { Navigation } from "./Lauout/Navigatino/Navigation";
+import { GetBalance } from "./Pages/GetBalance/GetBalance";
+
 function App() {
   return (
-    <h1>hello</h1>
+    <>
+      <div style={{marginTop: '100px'}} />
+      <Navigation />
+      <GetBalance />
+    </>
   );
 }
 
